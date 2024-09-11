@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Navigation */
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('luxury-car.jpg');
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+}
+
+.hero-section p {
+    font-size: 24px;
+}
+
+/* Services Section */
+#services {
+    padding: 50px;
+    text-align: center;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-placeholder {
+    background-color: #ccc;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-size: 18px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 50px;
+    background-color: #efefef;
+}
+
+#pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pricing li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+/* Contact Form Section */
+#contact-form {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact-form h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+/* Response message */
+#form-response {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+}
